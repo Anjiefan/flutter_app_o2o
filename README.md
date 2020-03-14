@@ -41,7 +41,6 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 **处理中：** 审核上线中
 
 ## 基础环境
-
 ```dart
 // 运行如下命令
 flutter --version
@@ -54,7 +53,6 @@ flutter --version
 // Tools • Dart 2.7.0
 ```
 ## 架构
-
 >- |--lib
 >    - |-- common (常用类，Constants,Routers,Networks,Managers)
 >        - |-- Constants（常量集合）
@@ -69,11 +67,15 @@ flutter --version
 >    - |-- view_model (操作service，provider的实体model类)
 
 ## 文档
-
 **后端API：** [点击查看](http://stg-finerit.leanapp.cn/finerit/)
 
 ## 更新记录
+- [x] 2019年12.20完成项目策划，正式启动项目
+- [x] 2020年1月，完成前后端架构的搭建
+- [x] 2020年2月，完成商家端、用户端的基本模型实现
+- [x] 2020年3月，完成前后端性能调优，api序列化优化
+- [x] 2020年3月14号，完成大体测试，正式开源公测
 
 ## 版权
-**黑龙江省符瑞科技有限公司** 
-**大庆市凡尔网络科技有限责任公司** 
+- [x] 黑龙江省符瑞科技有限公司** 
+- [x] 大庆市凡尔网络科技有限责任公司** 
