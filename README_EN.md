@@ -102,6 +102,8 @@ flutter --version
    </tr>
   </tbody>
 </table>
+
 ## copyright
 - [x] 黑龙江省符瑞科技有限公司
 - [x] 大庆市凡尔网络科技有限责任公司
+
