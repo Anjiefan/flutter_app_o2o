@@ -38,6 +38,25 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 ### 2. 商家端页面截图
 **处理中：** 审核上线中
 
-## Document
+## 基础环境
+
+```dart
+// 运行如下命令
+flutter --version
+
+// 正确环境如下
+// Flutter 1.12.13+hotfix.5 • channel stable •
+// https://github.com/flutter/flutter.git
+// Framework • revision 27321ebbad (3 months ago) • 2019-12-10 18:15:01 -0800
+// Engine • revision 2994f7e1e6
+// Tools • Dart 2.7.0
+```
+## 架构
+
+## 依赖
+
+## 文档
 
 **后端API：** [点击查看](http://stg-finerit.leanapp.cn/finerit/)
+
+
