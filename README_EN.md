@@ -6,7 +6,7 @@ flutter College canteen o2o reservation service, commercial application, continu
 ---
 # O2O - Flutter version campus o2o canteen booking app
 
-- [中文](https://github.com/Anjiefan/flutter_app_o2o/edit/master/README.md)
+- [中文](https://github.com/Anjiefan/flutter_app_o2o/blob/master/README.md)
 
 This is a complete, commercial-grade open source application, which aims to solve the efficiency problem of on-campus catering, retail and other services in colleges and universities across the country, and realize digital campus and intelligent campus.
 The implemented functions are：
