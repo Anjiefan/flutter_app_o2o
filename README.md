@@ -3,6 +3,9 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 ### notice:
 - 本产品由北京邮电大学&东北石油大学在校创业者研发，当前处于产品公测&本校运营阶段，开源供全国高校在校生加盟开发、测试、线下运营使用，完全开源，期望以实现全国自由开发者、创业者共同完善升级迭代应用，实现中心化平台、工具，去中心化商业，不再重复制造产业，共同铸就市场。
 - FLUTTER交流群：700014933，商务合作联系qq：66064540，微信：13091667316。
+- 由于国内github网速的问题，我们内部开发选用coding源，github源每月更新大版本，获取最新项目进展可以前往
+- 用户端coding源[https://e.coding.net/Anjiefan/yunzhixiao_customer_client.git](https://e.coding.net/Anjiefan/yunzhixiao_customer_client.git)
+- 商家端coding源[https://e.coding.net/Anjiefan/yunzhixiao_business_client.git](https://e.coding.net/Anjiefan/yunzhixiao_business_client.git)
 ---
 # O2O - Flutter 版校园o2o食堂预定app
 
