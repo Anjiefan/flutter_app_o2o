@@ -75,6 +75,24 @@ flutter --version
 - [x] 2020.2.30，完成商家端、用户端的大体模型及业务实现
 - [x] 2020.3.30，完成前后端性能调优，ui交互调优，美化，api序列化优化，修复漏洞
 - [x] 2020.3.14，完成大体测试，正式开源公测，预备上线
+## 核心开发者
+<table>
+  <tbody>
+    <tr>
+      <td align="center" width="80" valign="top">
+        <img height="80" width="80" src="https://avatars0.githubusercontent.com/u/34623459s=460&u=5dbbca37304268f8cd1c7ebb94821f0f295a60d4&v=4">
+        <br>
+        <a href="https://github.com/Anjiefan">@Anjiefan</a>
+      </td>
+      <td align="center" width="80" valign="top">
+        <img height="80" width="80"  src="https://avatars0.githubusercontent.com/u/41356695?s=64&v=4">
+        <br>
+        <a href="https://github.com/morningstarwang">@morningstarwang</a>
+      </td>
+   
+     </tr>
+  </tbody>
+</table>
 
 ## 版权
 - [x] 黑龙江省符瑞科技有限公司
