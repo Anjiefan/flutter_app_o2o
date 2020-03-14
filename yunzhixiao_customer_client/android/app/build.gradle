@@ -1,0 +1,164 @@
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterRoot = localProperties.getProperty('flutter.sdk')
+if (flutterRoot == null) {
+    throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
+
+def keystoreProperties = new Properties()
+def keystorePropertiesFile = rootProject.file('key.properties')
+if (keystorePropertiesFile.exists()) {
+    keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
+}
+apply plugin: 'com.mob.sdk'
+MobSDK {
+    appKey "2e4fc1051fb82"
+    appSecret "26b7bc58e12b0c3f17240e946718bea8"
+
+    ShareSDK {
+
+        //平台配置信息
+        devInfo {
+
+            QQ {
+                id 7
+                sortId 7
+                appId "101859784"
+                appKey "16a9053c2e11954f59cd48ccdc8aca32"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }
+
+            QZone {
+                id 3
+                sortId 3
+                appId "101859784"
+                appKey "16a9053c2e11954f59cd48ccdc8aca32"
+                shareByAppClient true
+                bypassApproval false
+                enable true
+            }
+
+            Wechat {
+                id 4
+                sortId 4
+                appId "wx58fbd34964417acc"
+                appSecret "c2d771775f6435471a47007a315edcc1"
+                userName "gh_afb25ac019c9"
+                path "pages/index/index.html?id=1"
+                withShareTicket true
+                miniprogramType 0
+                bypassApproval false
+                enable true
+            }
+        }
+    }
+}
+
+android {
+    compileSdkVersion 28
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+    lintOptions {
+        disable 'InvalidPackage'
+    }
+        aaptOptions { cruncherEnabled = false }
+
+            signingConfigs {
+        release {
+            keyAlias keystoreProperties['keyAlias']
+            keyPassword keystoreProperties['keyPassword']
+            storeFile file(keystoreProperties['storeFile'])
+            storePassword keystoreProperties['storePassword']
+        }
+    }
+     buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            shrinkResources false
+            useProguard false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+        applicationId "com.finerit.yunzhixiao_customer_client"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+    	GETUI_APP_ID    : "vfdRGx6pe5Apy4UesDQGxA",
+    	GETUI_APP_KEY   : "UlU1QjEvqS8cO4i5rrcP95",
+    	GETUI_APP_SECRET: "j5iOK5nT6D8JrxmISEbdj4",
+        // 下面是多厂商配置，如需要开通使用请联系技术支持
+        // 如果不需要使用，预留空字段即可
+         XIAOMI_APP_ID   : "",
+         XIAOMI_APP_KEY  : "",
+         MEIZU_APP_ID    : "",
+         MEIZU_APP_KEY   : "",
+         HUAWEI_APP_ID   : "",
+         OPPO_APP_KEY   : "",
+         OPPO_APP_SECRET  : "",
+         VIVO_APP_ID   : "",
+         VIVO_APP_KEY  : ""
+    ]
+    }
+
+    buildTypes {
+        release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+}
+

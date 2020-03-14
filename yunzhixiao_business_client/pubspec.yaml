@@ -1,0 +1,110 @@
+name: yunzhixiao_business_client
+description: 云智校商家客户端
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  # State
+  provider: ^3.2.0
+  cupertino_icons: ^0.1.2
+  wakelock: ^0.1.3+4
+  dio: ^3.0.1
+  shared_preferences: ^0.5.3+5
+  image_picker: 0.6.3
+  package_info: ^0.4.0+6
+  permission_handler: '^4.2.0+hotfix.3'
+  url_launcher: ^5.4.1
+  # 本地json对象存储
+  localstorage: ^2.0.0
+  # ui toast
+  oktoast: ^2.1.7
+  # refresh
+  pull_to_refresh: ^1.5.6
+  cached_network_image: ^2.0.0-rc.1
+  # 闪亮
+  shimmer: ^1.0.0
+  flare_flutter: ^1.5.9
+  flutter_swiper: ^1.1.6
+  flutter_rating_bar: ^3.0.1+1
+  uuid: 2.0.4
+  image_gallery_saver:
+    git:
+      url: https://github.com/hui-z/image_gallery_saver.git
+  flutter_cupertino_date_picker: ^0.4.0
+  # 更新展示支持mark_down
+  flutter_markdown: ^0.2.0
+  #网络情况检测
+  connectivity: 0.4.4
+  open_file: ^2.0.3
+  launch_review: ^2.0.0
+  fl_chart: ^0.6.3
+  flutter_sparkline:
+  bezier_chart: "^1.0.15"
+  extended_tabs:
+  common_utils: ^1.1.3
+  getuiflut: ^0.1.7
+  # fake_push:
+  #   git:
+  #     url: https://github.com/v7lin/fake_push.git
+  fake_alipay: ^0.2.3
+  random_color: ^1.0.3
+  audioplayers: ^0.14.0
+
+  badges: ^1.1.0
+
+  notification_permissions: ^0.4.4
+
+  webview_flutter: ^0.3.13
+  flutter_webview_plugin: ^0.3.8
+  device_info: ^0.4.0+1
+  # Html Encoder/Decoder
+  html_unescape: ^1.0.1+3
+  share: 0.6.2+1 #分享
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  uses-material-design: true
+
+  fonts:
+    - family: iconfont
+      fonts:
+        - asset: assets/fonts/iconfont.ttf
+    - family: kuaile # 站酷 快乐字体  https://fonts.google.com/?selection.family=Noto+Sans+SC&subset=chinese-simplified
+      fonts:
+        - asset: assets/fonts/ZCOOLKuaiLe-Regular.ttf
+  assets:
+    - assets/images/
+    - assets/animations/
+    - assets/ring/
+
+

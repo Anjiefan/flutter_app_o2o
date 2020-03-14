@@ -1,0 +1,49 @@
+class RouteName {
+  static const String splash = 'splash';
+  static const String tab = '/';
+  static const String login = 'login';
+  static const String webView='webview';
+  static const String register = 'register';
+  static const String registerVerify = 'register/verify';
+  static const String setting = 'setting';
+  static const String orderDetail = 'order_process/order_process_home_page';
+  static const String appInfo = 'user/appinfo';
+  static const String shopManageCommodity = 'shopManage/commodity';
+  static const String shopManageWallet = 'shopManage/wallet';
+  static const String shopManageWalletQA = 'shopManage/wallet/qa';
+  static const String shopManageWalletDetail = 'shopManage/wallet/detail';
+  static const String shopManageComment = 'shopManage/comment';
+  static const String shopManageData = 'shopManage/data';
+  static const String shopManageLockCustomerDetail = 'shopManage/lock_customer_detail';
+  static const String shopManageActivity = 'shopManage/activity';
+  static const String shopManageActivityMoneyOff = 'shopManage/activity/money_off';
+  static const String shopManageActivityLockCustomerRedPacket = 'shopManage/activity/lock_customer_red_packet';
+  static const String shopManageActivityInviteRedPacket = 'shopManage/activity/invite_red_packet';
+  static const String shopManageActivityLockCustomerDiscount = 'shopManage/activity/lock_customer_discount';
+  static const String shopManageActivityDetail = 'shopManage/activity/detail';
+  static const String userShopSettingsHome = 'user/shop_settings/home';
+  static const String userChangePassword = 'user/change_password/';
+  static const String userShopSettingsBasicInfo = 'user/shop_settings/basic_info';
+  static const String userShopSettingsBasicInfoQRCode = 'user/shop_settings/basic_info/qr_code';
+  static const String userShopSettingsOperateInfo = 'user/shop_settings/operate_info';
+  static const String userOrderSettingsHome = 'user/order_settings/home';
+  static const String userShopTypeChooseSettings = 'user/shop_settings/shop_type_choose';
+  static const String userNotificationSettingsHome = 'user/notification_settings/home';
+
+  static const String shopManageDataHome='shop_manage/data_center/data_center_home';
+  static const String shopManageMarketData='shop_manage/market_data';
+  static const String shopManageCommodityManagePage='shop_manage/commodity_manage/commodity_manage_home';
+  static const String shopCategoryPage='shop_manag/commodity_manage/category_manage';
+  static const String shopAddCategoryPage='shop_manag/commodity_manage/add_category_manage';
+  static const String shopManageSortCommodityPage='shop_manag/commodity_manage/commodity_sord_manage_home';
+  static const String shopAddCommodityPage='shop_manag/commodity_manage/add_commodity_manage';
+  static const String shopchangeCommodityPage='shop_manag/commodity_manage/change_commodity_manage';
+  static const String shopCategoryEditPage='shop_manag/commodity_manage/category_edit';
+  static const String shopChooseCategoryPage='shop_manag/commodity_manage/choose_category';
+  static const String shopManageCommoditySellPage='shop_manag/commodity_manage/commodity_sell';
+  static const String shopManageCommodityMultiManagePage='shop_manag/commodity_manage/commodity_multi_manage';
+
+  static const String orderSearchAction = 'order/search_action';
+  static const String orderProcessSearch = 'order/process_search';
+  static const String systemMessage = 'systemMessage';
+}
