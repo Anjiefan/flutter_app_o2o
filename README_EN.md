@@ -75,6 +75,7 @@ flutter --version
 - [x] 2020.2.30，Complete the general model and business realization of the merchant side and the client side
 - [x] 2020.3.30，Complete front and rear performance tuning, UI interaction tuning, beautification, API serialization optimization, and bug fixing
 - [x] 2020.3.14，Complete general test, official open source public test, ready to go online
+## Asosiy tuzuvchi 
 <table>
   <tbody>
     <tr>
