@@ -53,18 +53,20 @@ flutter --version
 // Tools • Dart 2.7.0
 ```
 ## 架构
+
 >- |--lib
 >    - |-- common (常用类，Constants,Routers,Networks,Managers)
->        - |-- Constants
->        - |-- Routers
->        - |-- Networks
->        - |-- Managers
+>        - |-- Constants（常量集合）
+>        - |-- Routers（路由集合）
+>        - |-- Networks（进一步封装dio系统架构）
+>        - |-- Managers（管理类，如：获取文件、获取存储信息、完成文件缓存等）
 >    - |-- models (实体类)
 >    - |-- providers (进一步封装provider系统架构)
 >    - |-- service (网络层业务逻辑)
 >    - |-- ui (界面相关page，dialog，widgets)
 >    - |-- utils (工具类)
 >    - |-- view_model (操作service，provider的实体model类)
+
 ## 文档
 
 **后端API：** [点击查看](http://stg-finerit.leanapp.cn/finerit/)
