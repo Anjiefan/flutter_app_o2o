@@ -80,7 +80,7 @@ flutter --version
   <tbody>
     <tr>
       <td align="center" width="80" valign="top">
-        <img height="80" width="80" src="https://avatars0.githubusercontent.com/u/34623459s=460&u=5dbbca37304268f8cd1c7ebb94821f0f295a60d4&v=4">
+        <img height="80" width="80" src="https://avatars0.githubusercontent.com/u/34623459?s=460&u=5dbbca37304268f8cd1c7ebb94821f0f295a60d4&v=4">
         <br>
         <a href="https://github.com/Anjiefan">@Anjiefan</a>
       </td>
