@@ -17,6 +17,7 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 - [x] 店铺管理
 - [x] 商品管理
 - [x] 订单管理
+- [x] 微信、qq分享
 
 未来可能升级的功能有：
 - 硬件系统
@@ -52,11 +53,22 @@ flutter --version
 // Tools • Dart 2.7.0
 ```
 ## 架构
-
-## 依赖
-
+>- |--lib
+>    - |-- common (常用类，Constants,Routers,Networks,Managers)
+>        - |-- Constants
+>        - |-- Routers
+>        - |-- Networks
+>        - |-- Managers
+>    - |-- models (实体类)
+>    - |-- providers (进一步封装provider系统架构)
+>    - |-- service (网络层业务逻辑)
+>    - |-- ui (界面相关page，dialog，widgets)
+>    - |-- utils (工具类)
+>    - |-- view_model (操作service，provider的实体model类)
 ## 文档
 
 **后端API：** [点击查看](http://stg-finerit.leanapp.cn/finerit/)
+
+## 更新记录
 
 
