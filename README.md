@@ -92,6 +92,11 @@ flutter --version
         <br>
         <a href="https://github.com/morningstarwang">@morningstarwang</a>
       </td>
+         <td align="center" width="80" valign="top">
+        <img height="80" width="80"  src="https://avatars0.githubusercontent.com/u/47547284?s=460&v=4">
+        <br>
+        <a href="https://github.com/1GayWoliGiao">@1GayWoliGiao</a>
+      </td>
    
    </tr>
   </tbody>
