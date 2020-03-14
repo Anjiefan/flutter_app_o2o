@@ -40,4 +40,4 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 
 ## Document
 
-**项目使用的 API：** [点击查看](http://stg-finerit.leanapp.cn/finerit/)
+**后端API：** [点击查看](http://stg-finerit.leanapp.cn/finerit/)
