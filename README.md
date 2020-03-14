@@ -3,7 +3,7 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 ### notice:
 - 本产品由北京邮电大学&东北石油大学在校创业者研发，当前处于产品公测&本校运营阶段，开源供全国高校在校生加盟开发、测试、线下运营使用，完全开源，期望以实现全国自由开发者、创业者共同完善升级迭代应用，实现中心化平台、工具，去中心化商业，不再重复制造产业，共同铸就市场。FLUTTER交流群：700014933，商务合作联系qq：66064540
 ---
-# : O2O - Flutter 版校园o2o食堂预定app
+# O2O - Flutter 版校园o2o食堂预定app
 
 - [English](https://github.com/Mayandev/morec/blob/master/README_EN.md)
 
@@ -22,3 +22,11 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 - 硬件系统
 - 跑腿系统
 - 校外餐饮优惠卷系统
+
+## Download
+
+**Android：** [Apk 下载地址](https://github.com/Mayandev/morec/raw/master/Morec.apk)
+
+**iOS：** 审核上线中
+
+**app官网：** 审核上线中
