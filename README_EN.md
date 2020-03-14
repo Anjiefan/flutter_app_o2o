@@ -75,7 +75,32 @@ flutter --version
 - [x] 2020.2.30，Complete the general model and business realization of the merchant side and the client side
 - [x] 2020.3.30，Complete front and rear performance tuning, UI interaction tuning, beautification, API serialization optimization, and bug fixing
 - [x] 2020.3.14，Complete general test, official open source public test, ready to go online
-
+<table>
+  <tbody>
+    <tr>
+      <td align="center" width="80" valign="top">
+        <img height="80" width="80" src="https://avatars0.githubusercontent.com/u/34623459?s=460&u=5dbbca37304268f8cd1c7ebb94821f0f295a60d4&v=4">
+        <br>
+        <a href="https://github.com/Anjiefan">@Anjiefan</a>
+      </td>
+      <td align="center" width="80" valign="top">
+        <img height="80" width="80"  src="https://avatars0.githubusercontent.com/u/41356695?s=64&v=4">
+        <br>
+        <a href="https://github.com/morningstarwang">@morningstarwang</a>
+      </td>
+         <td align="center" width="80" valign="top">
+        <img height="80" width="80"  src="https://avatars0.githubusercontent.com/u/47547284?s=460&v=4">
+        <br>
+        <a href="https://github.com/1GayWoliGiao">@1GayWoliGiao</a>
+      </td>
+       <td align="center" width="80" valign="top">
+        <img height="80" width="80"  src="https://avatars2.githubusercontent.com/u/34328687?s=400&u=84f1d2b4ccdf3259a2296672dfbf903dd0c9304f&v=4">
+        <br>
+        <a href="https://github.com/jypjypjypjyp">@1GayWoliGiao</a>
+      </td>
+   </tr>
+  </tbody>
+</table>
 ## copyright
 - [x] 黑龙江省符瑞科技有限公司
 - [x] 大庆市凡尔网络科技有限责任公司
