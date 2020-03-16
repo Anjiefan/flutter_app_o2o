@@ -3,6 +3,7 @@ flutter College canteen o2o reservation service, commercial application, continu
 ### notice:
 - This product by the Beijing university of posts and telecommunications & northeast petroleum university school entrepreneurs to research and development, the current products & our demo operation stage, open source for the national college students to join in development, testing, offline operation, fully open source, expect to achieve the national free common perfect upgrade iterative application, developers, entrepreneurs realize centralized platform, tools, and decentralized business, not repeat manufacture industry, casting market together.
 - FLUTTER communication qq group: 700014933, business cooperation contact qq: 66064540,wechat: 13091667316.
+- App test account, account: 19999999999 password: suibianle00
 ---
 # O2O - Flutter version campus o2o canteen booking app
 
@@ -27,18 +28,18 @@ Possible future upgrades include:
 
 ## Download
 
-**Android：** [Apk Download address](https://github.com/Mayandev/morec/raw/master/Morec.apk)
+**Android：** [client download]() [shop download](http://lc-aveFaAUx.cn-n1.lcfile.com/67f1e71b5d557927c74a/app-release.apk)
 
 **iOS：** Review on line
 
-**app website：** Review on line
+**app website：** [http://stg-finerit.leanapp.cn/app/](http://stg-finerit.leanapp.cn/app/)
 
 ## screenshot
 
 ### 1. Screenshot of the client page
-**处理中：** 审核上线中
+![Screenshot of the client page](http://lc-aveFaAUx.cn-n1.lcfile.com/a44e06a43b68b9cff731/%E5%AE%A2%E6%88%B7.png)
 ### 2. Business side page screenshot
-**处理中：** 审核上线中
+![Business side page screenshot](http://lc-aveFaAUx.cn-n1.lcfile.com/f40eaaffc0e0cbe3b834/%E5%95%86%E5%AE%B6.png)
 
 ## Based on the environment
 ```dart
@@ -97,7 +98,7 @@ flutter --version
        <td align="center" width="80" valign="top">
         <img height="80" width="80"  src="https://avatars2.githubusercontent.com/u/34328687?s=400&u=84f1d2b4ccdf3259a2296672dfbf903dd0c9304f&v=4">
         <br>
-        <a href="https://github.com/jypjypjypjyp">@1GayWoliGiao</a>
+        <a href="https://github.com/jypjypjypjyp">@jypjypjypjyp</a>
       </td>
    </tr>
   </tbody>
