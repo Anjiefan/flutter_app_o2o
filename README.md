@@ -6,6 +6,7 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 - 由于国内github网速的问题，我们内部开发选用gitee源，github源每月更新大版本，获取最新项目进展以及协作开发可以前往coding，我们非常乐意听取您的意见，为共同的市场定制功能，添加更人性化的功能，修补缺陷，期待您的issues。
 - 用户端coding源[https://gitee.com/qiao_bu_fan/yunzhixiao_customer_client](https://gitee.com/qiao_bu_fan/yunzhixiao_customer_client)
 - 商家端coding源[https://gitee.com/qiao_bu_fan/yunzhixiao_business_client](https://gitee.com/qiao_bu_fan/yunzhixiao_business_client)
+- app测试账户,账户：19999999999 密码：suibianle00
 ---
 # O2O - Flutter 版校园o2o食堂预定app
 
