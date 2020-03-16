@@ -367,6 +367,7 @@ class UserListWidget extends StatelessWidget {
                         ChatUtils.qqChat(context);
                       },
                     ),
+                    Divider(height: 0),
                     ListTile(
                       title: ListTileCustom(
                         Text(

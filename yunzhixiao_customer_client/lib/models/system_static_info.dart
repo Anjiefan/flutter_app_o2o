@@ -33,17 +33,20 @@ class SystemStaticInfo {
 class StaticData {
   String serviceQq;
   String website;
-  StaticData({this.website});
+  String share;
+  StaticData({this.website,this.share,this.serviceQq});
 
   StaticData.fromJson(Map<String, dynamic> json) {
     serviceQq = json['service_qq'];
     website = json['website'];
+    share = json['share'];
   }
 
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> data = new Map<String, dynamic>();
     data['service_qq'] = this.serviceQq;
     data['website'] = this.website;
+    data['share'] = this.share;
     return data;
   }
 }

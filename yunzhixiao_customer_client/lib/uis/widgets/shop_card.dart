@@ -131,6 +131,8 @@ class _ShopCard extends State<ShopCard> {
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: <Widget>[
                             Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              mainAxisAlignment: MainAxisAlignment.start,
                               children: <Widget>[]..addAll(show == false
                                   ? buildPromotionWidgets()
                                   : buildPromotionWidgets2()),
@@ -216,7 +218,7 @@ class _ShopCard extends State<ShopCard> {
     List<Widget> rowList = [];
     for (int i = 0; i < returnList.length; i++) {
       rowList.add(returnList[i]);
-      if ((i + 1) % 3 == 0) {
+      if ((i + 1) % 2 == 0) {
         returnRowList.add(Container(
           margin: EdgeInsets.only(bottom: 5),
           child: Row(

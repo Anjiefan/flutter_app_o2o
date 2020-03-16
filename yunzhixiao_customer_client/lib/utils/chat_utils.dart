@@ -35,7 +35,14 @@ class ChatUtils {
       showToast("无法启动QQ",context: context);
     }
   }
-  static shareGrid(BuildContext context,{url="https://hwapp.finerit.com/app",title="云智校app",content="食堂线上下单、快速预定，告别排队"}){
+  static shareGrid(BuildContext context,{
+    url=null
+    ,title="云智校app"
+    ,content="食堂线上下单、快速预定，告别排队"}){
+    if(url==null){
+      var model = Provider.of<SystemStaticModel>(context);
+      url=model.systemStaticInfo.staticData.share;
+    }
 
     SSDKMap params = SSDKMap()
       ..setGeneral(

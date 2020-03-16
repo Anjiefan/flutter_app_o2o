@@ -128,7 +128,7 @@ class ShopShareCard extends StatelessWidget {
                                   ),
                                 ),
                                 onTap: (){
-                                  ChatUtils.shareGrid(context);
+                                  ChatUtils.shareGrid(context,url: shop.shareLink);
                                 },
                               ),
                             ],
