@@ -28,7 +28,7 @@ Possible future upgrades include:
 
 ## Download
 
-**Android：** [client download]() [shop download](http://lc-aveFaAUx.cn-n1.lcfile.com/67f1e71b5d557927c74a/app-release.apk)
+**Android：** [client download]() | [shop download](http://lc-aveFaAUx.cn-n1.lcfile.com/67f1e71b5d557927c74a/app-release.apk)
 
 **iOS：** Review on line
 
