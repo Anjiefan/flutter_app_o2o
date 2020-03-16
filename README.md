@@ -39,7 +39,7 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 ## 关键页面截图
 
 ### 1. 用户端页面截图
-![用户端页面截图](http://lc-aveFaAUx.cn-n1.lcfile.com/74aa852659602d6a77ab/%E5%AE%A2%E6%88%B7.png)
+![用户端页面截图](http://lc-aveFaAUx.cn-n1.lcfile.com/a44e06a43b68b9cff731/%E5%AE%A2%E6%88%B7.png)
 ### 2. 商家端页面截图
 ![商家端页面截图](http://lc-aveFaAUx.cn-n1.lcfile.com/f40eaaffc0e0cbe3b834/%E5%95%86%E5%AE%B6.png)
 
