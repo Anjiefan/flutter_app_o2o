@@ -31,7 +31,7 @@ flutter高校食堂o2o预定服务，商业级应用，持续升级，完全开�
 
 ## Download
 
-**Android：** [用户端下载]() [商家端下载]()
+**Android：** [用户端下载]() [商家端下载](http://lc-aveFaAUx.cn-n1.lcfile.com/67f1e71b5d557927c74a/app-release.apk)
 
 **iOS：** 审核上线中
 
